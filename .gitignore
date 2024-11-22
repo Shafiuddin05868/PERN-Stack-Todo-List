@@ -1,0 +1,23 @@
+# Ignore node_modules in both client and server
+node_modules/
+
+# Ignore environment variables
+.env
+server/.env
+
+# Ignore build output from Next.js
+.next/
+
+# Ignore log files
+*.log
+
+# Ignore TypeScript build output
+*.tsbuildinfo
+
+# Ignore OS-specific or editor-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled output (if applicable)
+dist/
+
